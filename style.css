@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+    height: 250px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.rightcontainer{
+    width: 200px;
+    height: 100px;
+    background-color:grey;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    text-align: center;
+}
+#placeholder{
+    margin-top: 30px;
+}
+ li a{
+    color: aliceblue;
+}
+.linkcontainer{
+    display: flex;
+    position: absolute;
+    left: 31%;
+    top: 2px;
+    justify-content: space-between;
+    width: 300px;
+    left: 190px;
+}
+.linkcontainer ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.linkcontainer ul li a{
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.headercontainer{
+    position: absolute;
+    top: 60px;
+    width: 220px;
+    height: 100px;
+    margin: 0 20px;
+}
+.maincontainer{
+    position: relative;
+}
+.btn{
+    padding: 3px 12px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.maincontainer > h3{
+    margin-left: 22px;
+    text-transform: capitalize;
+}  
+    
+
+#text{
+    font-size: 15px;
+}
+.middle-section{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 60px;
+
+}
+.container1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6 ;
+    border-radius: 5px;
+     margin: 10px 10px;
+}
+.container2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6 ;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.container3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6 ;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.container4{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6 ;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.middle{
+    text-align: center;
+    margin: 20px 0px;
+    position: absolute;
+    height: 900px;
+    width: 100%;
+}
+h4{
+    font-size: 1.2em;
+}
+.container1-wrap{
+    width: 130px;
+    margin: 10px 30px;
+}
+.container2-wrap{
+    width: 130px;
+    margin: 10px 30px;
+}
+.container3-wrap{
+    width: 130px;
+    margin: 10px 30px;
+}
+.container4-wrap{
+    width: 130px;
+    margin: 10px 30px;
+}
+#wraptext{
+    font-size: 13px;
+
+}
+.textarea{
+    background-color: antiquewhite;
+    height: 200px;
+    position: absolute;
+    bottom: 30%;
+    text-align: center;
+}
+.textarea p{
+    margin: 50px 100px;
+    margin-bottom: 0;
+    text-transform:lowercase;
+}
+.textarea h4{
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+.calltoaction-container{
+    position: absolute;
+    bottom: 10%;
+    background-color: #3882F6;
+    margin: 20px 30px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    
+}
+.action-btn{
+    border: 2px solid white;
+    color: white;
+    background-color: #3882F6;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.footer-container{
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+@media screen and (min-width:800px){
+    .linkcontainer{
+        left: 65%;
+    }
+    .rightcontainer{
+        width: 320px;
+        height: 135px;
+        right: 110px;
+    }  
+    #placeholder{
+        margin-top: 50px;
+    }  
+    .maincontainer > h3{
+        margin-left: 120px;
+    }  
+    
+    .headercontainer{
+        margin-left: 120px;
+    }   
+    .textarea{
+        width: 100%;
+        bottom: 45%;
+        height: 250px;
+    }
+    .textarea p{
+        margin: 6rem 20rem;
+        margin-bottom: 0;
+        text-transform:lowercase;
+    }
+    .textarea h4{
+        margin-left: 350px;
+        margin-top: 15px;
+        font-size: 1em;
+    }
+    .calltoaction-container{
+        bottom: 28%;
+        padding: 20px 30px;
+        width: 50%;
+        left: 250px;  
+    }
+    .calltoaction-container h5{
+        margin-right: 400px;
+        font-size: 0.8rem;
+        text-transform: capitalize;
+    }
+     .calltoaction-container p{
+        margin-right: 100px; 
+
+    }
+    .action-btn{
+        margin-left: 30rem; 
+  
+    }    
+    
+    .action-text{
+        position: absolute;
+        top: 20%;
+    }
+    .footer-container{
+        bottom: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        text-transform: capitalize;
+        background-color: #1F2937;
+        color: white;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    
+}
